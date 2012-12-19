@@ -28,7 +28,7 @@ $(document).ready(function() {
 			$("#contact-button").show();
 			$(".loader").hide();
 		} 
-		else if(nome == "" || email == "" ){	
+		else if(name == "" || email == "" ){	
 			$("#contact-button").show(); 
 			$("<div id='errori'></div>").appendTo("#contact").html("<span>Fill the field with (*)!</span>").delay(2000).fadeOut(timer);
 			$(".loader").hide();
